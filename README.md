@@ -14,14 +14,14 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 ### Questões Médias
 | Título | Resolução | 
 | -- | --|
-|  |   |
+| [Even tree](https://www.hackerrank.com/challenges/even-tree/problem?isFullScreen=true) |   |
 |  |  |
 
 ### Questões Difíceis
 | Título | Resolução | 
 | -- | -- |
-|  |   |
-| |    |
+|[Minimum Penalty Path](https://www.hackerrank.com/challenges/beautiful-path/problem?isFullScreen=true)  |   |
+|[Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem?isFullScreen=true) |    |
 | |   |
 |  | |
 
