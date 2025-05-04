@@ -14,7 +14,7 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 ### Questões Médias
 | Título | Resolução | 
 | -- | --|
-| [Even tree](https://www.hackerrank.com/challenges/even-tree/problem?isFullScreen=true) |   |
+| [Prim's (MST) : Special Subtree](https://www.hackerrank.com/challenges/primsmstsub/problem?isFullScreen=true) |   |
 |  |  |
 
 ### Questões Difíceis
