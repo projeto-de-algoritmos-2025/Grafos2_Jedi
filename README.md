@@ -20,7 +20,7 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 ### Questões Difíceis
 | Título | Resolução | 
 | -- | -- |
-|[Minimum Penalty Path](https://www.hackerrank.com/challenges/beautiful-path/problem?isFullScreen=true)  |   |
+|[Road Network](https://www.hackerrank.com/challenges/road-network/problem?isFullScreen=true)  |   |
 |[Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem?isFullScreen=true) |    |
 | |   |
 |  | |
