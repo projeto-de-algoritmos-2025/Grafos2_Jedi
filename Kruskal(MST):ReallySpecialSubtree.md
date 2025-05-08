@@ -24,7 +24,9 @@
 
 ### 1. Compreensão do Prolema:
 
-**Descrição:** 
+**Descrição:** Encontrar um subgrafo dentro de um grafo de entrada dado. Assim, o "Really Special SubTree" é definido como um subgrafo que contém todos os nós do grafo original, forma uma árvore ( que não tem ciclos e com um caminho único entre quaisquer dois nós) e que possui o peso total das arestas minimizado (ou seja, é uma Árvore Geradora Mínima - AGM). Além disso, a regra específica para construir essa AGM é processar as arestas em ordem crescente de peso e adicioná-las se não formarem um ciclo. O objetivo final é retornar a soma total dos pesos das arestas que compõem essa AGM.
+
+**Observação:** Uma regra de desempate adicional é fornecida para arestas de mesmo peso: priorizar a aresta cuja soma dos identificadores dos seus nós (u+v) seja a menor.
 
 **Entradas:** 
 
