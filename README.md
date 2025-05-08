@@ -15,7 +15,7 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 | Título | Resolução | 
 | -- | --|
 | [Prim's (MST) : Special Subtree](https://www.hackerrank.com/challenges/primsmstsub/problem?isFullScreen=true) |   |
-| [Kruskal (MST): Really Special Subtree](https://www.hackerrank.com/challenges/kruskalmstrsub/problem) |  |
+| [Kruskal (MST): Really Special Subtree](https://www.hackerrank.com/challenges/kruskalmstrsub/problem) | [Resolução](/Kruskal(MST):ReallySpecialSubtree.md) |
 
 ### Questões Difíceis
 | Título | Resolução | 
