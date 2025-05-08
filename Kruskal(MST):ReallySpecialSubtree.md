@@ -51,9 +51,19 @@
 
 #### Pensamento
 
+1. Coletar todas as arestas do grafo com seus respectivos nós (u, v) e pesos (w).
+2. Classificar as arestas. O critério principal é colocar o peso (w) em ordem crescente e , como regra de desempate, para pesos iguais, usar a soma dos nós (u+v) em ordem crescente.
+3. Inicializar a estrutura Union-Find (Conjuntos Disjuntos) para N nós, onde cada nó começa em seu próprio conjunto isolado.
+4. Percorrer as arestas uma a uma na ordem que foram classificadas.
+5. Para cada aresta (w, u, v): usar a operação find da Union-Find para descobrir a qual componente cada nó (u e v) pertence.
+6. Adição Condicional: Se os nós u e v estiverem em componentes diferentes (não há ciclo), adicionar a aresta: Somar seu peso (w) ao peso total acumulado da AGM ou usar a operação union(u, v) da Union-Find para unir os componentes onde u e v estavam.
+7. Se os nós u e v já estiverem no mesmo componente, a aresta forma um ciclo com as arestas já escolhidas. Assim, ignorar esta aresta.
 
 
-### 3. Criação de um psudo código
+### 3. Criação de um psudo código com base no [slide 15 de Grafos 2](https://aprender3.unb.br/pluginfile.php/3112862/mod_resource/content/1/04-mstreview.pdf) 
+
+
+
 
 
 
