@@ -23,7 +23,7 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 |[Road Network](https://www.hackerrank.com/challenges/road-network/problem?isFullScreen=true)  |   |
 |[Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem?isFullScreen=true) |    |
 |[Coprime Paths](https://www.hackerrank.com/challenges/coprime-paths/problem) |   |
-|[Minimum MST Graph](https://www.hackerrank.com/challenges/minimum-mst-graph/problem) | |
+|[Minimum MST Graph](https://www.hackerrank.com/challenges/minimum-mst-graph/problem) | [Resolução](/MinimumMSTGraph.md)|
 
 ## Screenshots
 Screenshots das resoluções estão indicados na tabela acima.
