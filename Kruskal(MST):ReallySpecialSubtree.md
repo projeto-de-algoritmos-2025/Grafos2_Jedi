@@ -30,9 +30,14 @@
 
 **Entradas:** 
 
+- **g_nodes**: Um inteiro representando o número de nós no grafo (N). Os nós são numerados de 1 a N.
+- **g_from:** Um array de inteiros, onde g_from[i] é o nó de início da i-ésima aresta.
+- **g_to:** Um array de inteiros, onde g_to[i] é o nó de fim da i-ésima aresta. **Observação:** Como o grafo é não direcionado, a aresta (g_from[i], g_to[i]) é a mesma que (g_to[i], g_from[i]).
+- **g_weight:** Um array de inteiros, onde g_weight[i] é o peso da i-ésima aresta que conecta g_from[i] e g_to[i]. 
 
 #### Exemplo de entrada: 
 
+- 
 
 
 ### 2. Idea de Como Resolver
