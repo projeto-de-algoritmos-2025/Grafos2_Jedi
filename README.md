@@ -22,7 +22,7 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 | -- | -- |
 |[Road Network](https://www.hackerrank.com/challenges/road-network/problem?isFullScreen=true)  |   |
 |[Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem?isFullScreen=true) |    |
-|[Hacker Country](https://www.hackerrank.com/challenges/hacker-country/problem) |   |
+|[Coprime Paths](https://www.hackerrank.com/challenges/coprime-paths/problem) |   |
 |[Frog in Maze](https://www.hackerrank.com/challenges/frog-in-maze/problem) | |
 
 ## Screenshots
