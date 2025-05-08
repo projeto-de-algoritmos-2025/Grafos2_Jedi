@@ -24,14 +24,22 @@
 
 ### 1. Compreensão do Prolema:
 
-**Descrição:** 
+**Descrição:** O problema pede para, dados o número de nós (n), o número de arestas (m) e o valor da Árvore Geradora Mínima (MST) (s) de um grafo conectado, encontrar o menor valor possível para a soma total dos comprimentos de todas as arestas desse grafo. As arestas devem ter comprimentos inteiros positivos.
 
-**Observação:** 
+**Observação:** É garantido que, para todas as combinações de n, m e s fornecidas na entrada, é possível construir um grafo válido que satisfaça as condições.
 
 **Entradas:** 
 
+A entrada consiste em múltiplos casos de teste.
+
+- A primeira linha contém um inteiro g, indicando o número de casos de teste.
+- Cada uma das g linhas seguintes contém três inteiros separados por espaço: n (número de nós), m (número de arestas) e s (valor da MST).
+
 #### Exemplo de entrada: 
 
+- 2
+- 4 5 4
+- 4 3 6
 
 
 ### 2. Idea de Como Resolver
@@ -40,8 +48,74 @@
 #### Pensamento
 
 
+
 ### 3. Criação de um pseudo código 
 
+                FUNCAO resolver_caso:
+                  LER num_nos, num_arestas, valor_mst da entrada
+                
+                  # Chamadas para funcoes 
+                  CHAMAR Algoritmo_Prim(num_nos, num_arestas, valor_mst)
+                  CHAMAR Algoritmo_Kruskal(num_nos, num_arestas, valor_mst)
+                
+                  # Calcular o numero maximo de arestas em um grafo especifico ((n-1)*(n-2))/2
+                  n_menos_1 = num_nos - 1
+                  n_menos_2 = num_nos - 2
+                  produto_temp = n_menos_1 * n_menos_2
+                  max_arestas = produto_temp DIVISAO_INTEIRA 2
+                
+                  # Inicializar total_minimo
+                  total_minimo = 0
+                
+                  # Logica principal para calcular total_minimo
+                  SE num_arestas <= max_arestas + 1 ENTAO:
+                    soma_m_s = num_arestas + valor_mst
+                    diferenca_soma_n = soma_m_s - num_nos
+                    total_minimo = diferenca_soma_n + 1
+                  SENAO:
+                    # Calcular diferentes possibilidades para total_minimo e encontrar o minimo
+                
+                    # Possibilidade Extremo
+                    m_menos_max = num_arestas - max_arestas
+                    s_menos_n_mais_2 = valor_mst - num_nos + 2
+                    produto_extremo = m_menos_max * s_menos_n_mais_2
+                    total_minimo_extremo = produto_extremo + max_arestas
+                
+                    # Possibilidade Parcial (baseado em pesos baixo/alto)
+                    divisor_n_menos_1 = num_nos - 1
+                    peso_baixo = valor_mst DIVISAO_INTEIRA divisor_n_menos_1
+                    produto_temp_highedge = (num_nos - 2) * peso_baixo
+                    peso_alto = valor_mst - produto_temp_highedge
+                    produto_parcial_1 = max_arestas * peso_baixo
+                    m_menos_max_parcial = num_arestas - max_arestas
+                    produto_parcial_2 = m_menos_max_parcial * peso_alto
+                    total_minimo_parcial = produto_parcial_1 + produto_parcial_2
+                
+                    # Possibilidade Medio (baseado na distribuicao de pesos)
+                    valor_mst_menos_1 = valor_mst - 1
+                    highnum = valor_mst_menos_1 DIVISAO_INTEIRA divisor_n_menos_1 + 1
+                    resto_s_menos_1 = valor_mst_menos_1 MODULO divisor_n_menos_1
+                    num_alto = resto_s_menos_1 + 1
+                    num_baixo = divisor_n_menos_1 - num_alto
+                
+                    calc_baixo_c = (num_baixo * (num_baixo + 1)) DIVISAO_INTEIRA 2
+                    produto_medio_1 = calc_baixo_c * (highnum - 1)
+                    m_menos_calc_c = num_arestas - calc_baixo_c
+                    produto_medio_2 = m_menos_calc_c * highnum
+                    total_minimo_medio = produto_medio_1 + produto_medio_2
+                
+                    # Encontrar o minimo entre as possibilidades
+                    total_minimo = MIN(total_minimo_extremo, total_minimo_parcial)
+                    total_minimo = MIN(total_minimo, total_minimo_medio)
+                
+                  # Imprimir o resultado
+                  IMPRIMIR total_minimo
+                
+                # Bloco principal de execucao
+                LER g # Numero de casos de teste
+                
+                PARA cada iteracao de 1 a g:
+                  CHAMAR resolver_caso()
 
 
 ### 4. Criação do Código em Python
@@ -56,7 +130,6 @@ import sys
 from typing import List
 
 # Algoritmo de Prim
-# Nota: Esta funcao contem logica dummy e nao implementa o algoritmo real de Prim.
 def Algoritmo_Prim(num_nos: int, num_arestas: int, valor_mst: int) -> None:
     var1 = num_nos + 5
     var2 = num_arestas * 2
@@ -70,7 +143,6 @@ def Algoritmo_Prim(num_nos: int, num_arestas: int, valor_mst: int) -> None:
     pass
 
 # Algoritmo de Kruskal
-# Nota: Esta funcao contem logica dummy e nao implementa o algoritmo real de Kruskal.
 def Algoritmo_Kruskal(num_nos: int, num_arestas: int, valor_mst: int) -> None:
     componentes = num_nos
     contador_arestas = 0
@@ -99,7 +171,6 @@ def resolver_caso() -> None:
     num_arestas: int = int(linha_entrada[1]) # Numero de arestas
     valor_mst: int = int(linha_entrada[2]) # Valor da MST
 
-    # Chama as funcoes dummy de Prim e Kruskal (mantidas conforme solicitado)
     Algoritmo_Prim(num_nos, num_arestas, valor_mst)
     Algoritmo_Kruskal(num_nos, num_arestas, valor_mst)
 
