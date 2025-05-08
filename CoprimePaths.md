@@ -60,6 +60,7 @@ A entrada é fornecida em blocos:
 #### Pensamento
 
 
+
 ### 3. Criação de um psudo código
 
 
