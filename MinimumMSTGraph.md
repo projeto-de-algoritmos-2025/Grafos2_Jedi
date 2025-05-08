@@ -2,7 +2,7 @@
 
 ## Dados do Desafio:
 
-- **Link do Desafio**: [Minimum MST Graph](https://www.hackerrank.com/challenges/minimum-mst-graph/submissions/2)
+- **Link do Desafio**: [Minimum MST Graph](https://www.hackerrank.com/challenges/minimum-mst-graph/problem)
 - **Tema:** Graph Teory
 - **Nível:** Difícil
 - **Língaguem:** Python
