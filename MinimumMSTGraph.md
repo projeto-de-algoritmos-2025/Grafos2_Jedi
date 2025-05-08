@@ -47,7 +47,12 @@ A entrada consiste em múltiplos casos de teste.
 
 #### Pensamento
 
-
+1. Identificar que a MST terá sempre n−1 arestas cuja soma dos pesos é s.
+2. Reconhecer que as n−1 arestas da MST devem ter os menores pesos possíveis para permitir que as arestas restantes também tenham pesos baixos.
+3. Determinar que as m−(n−1) arestas restantes devem ser adicionadas com o menor peso inteiro positivo possível (idealmente 1), sem diminuir o valor da MST.
+4. Concluir que o problema se resume a encontrar a distribuição de pesos para as n−1 arestas da MST que minimize a soma dos pesos das arestas adicionais.
+5. Explorar diferentes cenários e fórmulas para calcular o total mínimo, considerando a relação entre m e o número máximo de arestas possíveis em um grafo específico, e as possíveis distribuições de pesos baseadas em s/(n−1).
+6. Calcular o mínimo entre as diferentes possibilidades encontradas para determinar o menor valor total possível da soma dos comprimentos de todas as arestas.
 
 ### 3. Criação de um pseudo código 
 
