@@ -15,14 +15,14 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 | Título | Resolução | 
 | -- | --|
 | [Prim's (MST) : Special Subtree](https://www.hackerrank.com/challenges/primsmstsub/problem?isFullScreen=true) |   |
-|  |  |
+| [Kruskal (MST): Really Special Subtree](https://www.hackerrank.com/challenges/kruskalmstrsub/problem) |  |
 
 ### Questões Difíceis
 | Título | Resolução | 
 | -- | -- |
 |[Road Network](https://www.hackerrank.com/challenges/road-network/problem?isFullScreen=true)  |   |
 |[Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem?isFullScreen=true) |    |
-| |   |
+| [ |   |
 |  | |
 
 ## Screenshots
