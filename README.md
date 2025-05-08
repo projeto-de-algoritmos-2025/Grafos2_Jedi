@@ -22,7 +22,6 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 | -- | -- |
 |[Road Network](https://www.hackerrank.com/challenges/road-network/problem?isFullScreen=true)  | [Resolução](/RoadNetwork.md)  |
 |[Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem?isFullScreen=true) | [Resolução](/dijkstra.md)   |
-|[Maximizing Mission Points](https://www.hackerrank.com/challenges/maximizing-mission-points/problem) |   |
 |[Minimum MST Graph](https://www.hackerrank.com/challenges/minimum-mst-graph/problem) | [Resolução](/MinimumMSTGraph.md)|
 
 ## Screenshots
