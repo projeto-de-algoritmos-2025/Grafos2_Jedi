@@ -14,13 +14,13 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 ### Questões Médias
 | Título | Resolução | 
 | -- | --|
-| [Prim's (MST) : Special Subtree](https://www.hackerrank.com/challenges/primsmstsub/problem?isFullScreen=true) | (Resolução)[/prim.md]  |
+| [Prim's (MST) : Special Subtree](https://www.hackerrank.com/challenges/primsmstsub/problem?isFullScreen=true) | [Resolução](/prim.md)  |
 | [Kruskal (MST): Really Special Subtree](https://www.hackerrank.com/challenges/kruskalmstrsub/problem) | [Resolução](/Kruskal(MST):ReallySpecialSubtree.md) |
 
 ### Questões Difíceis
 | Título | Resolução | 
 | -- | -- |
-|[Road Network](https://www.hackerrank.com/challenges/road-network/problem?isFullScreen=true)  | (Resolução)[/RoadNetwork.md]  |
+|[Road Network](https://www.hackerrank.com/challenges/road-network/problem?isFullScreen=true)  | [Resolução](/RoadNetwork.md)  |
 |[Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem?isFullScreen=true) | [Resolução](/dijkstra.md)   |
 |[Coprime Paths](https://www.hackerrank.com/challenges/coprime-paths/problem) |   |
 |[Minimum MST Graph](https://www.hackerrank.com/challenges/minimum-mst-graph/problem) | [Resolução](/MinimumMSTGraph.md)|
