@@ -37,7 +37,13 @@
 
 #### Exemplo de entrada: 
 
-- 
+- 4 6  → o 4 é o **g_nodes** no problema, representa a quantidade total de nós (pontos) no grafo. O 6 representa a quantidade total de arestas (conexões) no grafo.
+- 1 2 5  → Uma conexão entre o nó 1 e o nó 2, com peso 5.
+- 1 3 3  → Uma conexão entre o nó 1 e o nó 3, com peso 3.
+- 4 1 6  → Uma conexão entre o nó 4 e o nó 1, com peso 6.
+- 2 4 7  → Uma conexão entre o nó 2 e o nó 4, com peso 7.
+- 3 2 4  → Uma conexão entre o nó 3 e o nó 2, com peso 4.
+- 3 4 5  → Uma conexão entre o nó 3 e o nó 4, com peso 5.
 
 
 ### 2. Idea de Como Resolver
