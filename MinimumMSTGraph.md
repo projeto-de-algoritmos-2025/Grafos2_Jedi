@@ -16,7 +16,7 @@
 
 **Figura 2**: Enuciado do desafio.
 
-<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/MinimumMSTEnunciado1.png" alt="Descrição" width="1000"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/MinimumMSTEnunciado1.png" alt="Descrição" width="1000"/>
 
 **Figura 3**: Continuação Enuciado do desafio.
 
@@ -254,7 +254,7 @@ if __name__ == '__main__':
 
 **Figura 3:** Mostrar que o código foi aceito.
 
-<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/MSTGrapg_Envio.png" alt="Descrição" width="800"/>
+<img src="https://github.com/projeto-de-algoritmos-2025/Grafos2_Jedi/blob/main/imagens/MSTGrapg_Envio.png" alt="Descrição" width="800"/>
 
 
 ## Submissões
