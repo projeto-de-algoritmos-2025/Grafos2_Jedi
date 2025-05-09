@@ -4,20 +4,23 @@
 
 - **Link do Desafio**: [Minimum MST Graph](https://www.hackerrank.com/challenges/minimum-mst-graph/problem)
 - **Tema:** Graph Teory
-- **Nível:** Difícil
+- **Nível:** Expert
 - **Língaguem:** Python
 
 **Figura 1:** Dados do desafio.
 
-<img src="" alt="Descrição" width="400"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/MinimumMSTDados.png" alt="Descrição" width="400"/>
 
 
 ## Enunciado
 
 **Figura 2**: Enuciado do desafio.
 
-<img src="" alt="Descrição" width="1000"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/MinimumMSTEnunciado1.png" alt="Descrição" width="1000"/>
 
+**Figura 3**: Continuação Enuciado do desafio.
+
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/MinimumMSTEnunciado2.png" alt="Descrição" width="1000"/>
 
 ## Passo a Passo da Resolução:
 
@@ -251,17 +254,18 @@ if __name__ == '__main__':
 
 **Figura 3:** Mostrar que o código foi aceito.
 
-<img src="" alt="Descrição" width="800"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/MSTGrapg_Envio.png" alt="Descrição" width="800"/>
 
 
 ## Submissões
 
 **Figura 4:** Mostrar as submissões enquanto tenatava resolver.
 
-<img src="" alt="Descrição" width="800"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/MSTGraph_Submissao.png" alt="Descrição" width="800"/>
 
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autora | Revisora |
 | ------ | ---- | --------- | ------ | -------- |
 |1.0 |07/05/2025|Criação do Documento|Larissa Stéfane | Mylena Angélica |
+|1.1 |08/05/2025|Adição das Imagens|Larissa Stéfane | Mylena Angélica |
