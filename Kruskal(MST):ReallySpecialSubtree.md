@@ -9,15 +9,22 @@
 
 **Figura 1:** Dados do desafio.
 
-<img src="" alt="Descrição" width="400"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/Kruskal_Dados.png" alt="Descrição" width="400"/>
 
 
 ## Enunciado
 
 **Figura 2**: Enuciado do desafio.
 
-<img src="" alt="Descrição" width="1000"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/KruskalEnunciado1.png" alt="Descrição" width="1000"/>
 
+**Figura 3**: Continuação do Enuciado do desafio.
+
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/KruskalEnunciado2.png" alt="Descrição" width="1000"/>
+
+**Figura 4**: Continuação do Enuciado do desafio.
+
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/kruskalEnunciado3.png" alt="Descrição" width="1000"/>
 
 ## Passo a Passo da Resolução:
 
@@ -228,16 +235,16 @@ if __name__ == '__main__':
 
 ## Resultado Final
 
-**Figura 3:** Mostrar que o código foi aceito.
+**Figura 5:** Mostrar que o código foi aceito.
 
-<img src="" alt="Descrição" width="800"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/Kruskal(MST))envio.png" alt="Descrição" width="800"/>
 
 
 ## Submissões
 
-**Figura 4:** Mostrar as submissões enquanto tenatava resolver.
+**Figura 6:** Mostrar as submissões enquanto tenatava resolver.
 
-<img src="" alt="Descrição" width="800"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/refs/heads/main/imagens/imagens/Kruskal(MST)_submissao.png" alt="Descrição" width="800"/>
 
 ## Histórico de versão
 
@@ -246,3 +253,4 @@ if __name__ == '__main__':
 |1.0 |07/05/2025|Criação do Documento|Larissa Stéfane | Mylena Angélica |
 |1.1 |07/05/2025|Adição do pseudoCódigo|Larissa Stéfane | Mylena Angélica |
 |1.2 |07/05/2025|Adição do Código|Larissa Stéfane | Mylena Angélica |
+|1.3 |07/05/2025|Adição das imagens|Larissa Stéfane | Mylena Angélica |
