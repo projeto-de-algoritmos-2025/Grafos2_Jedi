@@ -4,19 +4,23 @@
 
 - **Link do Desafio**: [Coprime Paths](https://www.hackerrank.com/challenges/coprime-paths/problem)
 - **Tema:** Graph Teory
-- **Nível:** Difícil
+- **Nível:** Difícil | Expert
 - **Língaguem:** Python
 
 **Figura 1:** Dados do desafio.
 
-<img src="" alt="Descrição" width="400"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/8e354c0d2dd06123c7da95e8bc0c8f1b11b01896/imagens/imagens/ComprimePaths_Dados.png" alt="Descrição" width="400"/>
 
 
 ## Enunciado
 
 **Figura 2**: Enuciado do desafio.
 
-<img src="" alt="Descrição" width="1000"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/8e354c0d2dd06123c7da95e8bc0c8f1b11b01896/imagens/imagens/ComprimePaths_Eninciado1.png" alt="Descrição" width="1000"/>
+
+**Figura 3**: Enuciado do desafio.
+
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/8e354c0d2dd06123c7da95e8bc0c8f1b11b01896/imagens/imagens/comprimePaths_Enunciado2.png" alt="Descrição" width="1000"/>
 
 
 ## Passo a Passo da Resolução:
@@ -580,19 +584,37 @@ if __name__ == '__main__':
 
 ## Resultado Final
 
-**Figura 3:** Mostrar que o código foi aceito.
+Em relação a funcionamento, o código está funcionando bem e dando as saídas corretas. Contudo, há um enfrentamento de superar o time limit exceeded. Por isso, algumas vezes o código era aceito e outras não. Como é mostrado abaixo.
 
-<img src="" alt="Descrição" width="800"/>
+**Figura 4:** Mostrar que o código foi aceito.
+
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/8e354c0d2dd06123c7da95e8bc0c8f1b11b01896/imagens/imagens/comprime_paths_envio.png" alt="Descrição" width="800"/>
+
+**Figura 5:** Mostra que algumas vezes ocorreu o time limit exceeded
+
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/8e354c0d2dd06123c7da95e8bc0c8f1b11b01896/imagens/imagens/comprimePath_envio1.png" width="800"/>
+
 
 
 ## Submissões
 
-**Figura 4:** Mostrar as submissões enquanto tenatava resolver.
+**Figura 6:** Mostrar as submissões enquanto tenatava resolver.
 
-<img src="" alt="Descrição" width="800"/>
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/8e354c0d2dd06123c7da95e8bc0c8f1b11b01896/imagens/imagens/ccomprimePaths_Submissoes1.png" alt="Descrição" width="800"/>
+
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/8e354c0d2dd06123c7da95e8bc0c8f1b11b01896/imagens/imagens/ccomprimePaths_Submissoes2.png" alt="Descrição" width="800"/>
+
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/8e354c0d2dd06123c7da95e8bc0c8f1b11b01896/imagens/imagens/ccomprimePaths_Submissoes3.png" alt="Descrição" width="800"/>
+
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/8e354c0d2dd06123c7da95e8bc0c8f1b11b01896/imagens/imagens/ccomprimePaths_Submissoes4.png" alt="Descrição" width="800"/>
+
+<img src="https://raw.githubusercontent.com/projeto-de-algoritmos-2025/Grafos2_Jedi/8e354c0d2dd06123c7da95e8bc0c8f1b11b01896/imagens/imagens/ccomprimePaths_Submissoes5.png" alt="Descrição" width="800"/>
+
 
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autora | Revisora |
 | ------ | ---- | --------- | ------ | -------- |
 |1.0 |07/05/2025|Criação do Documento|Larissa Stéfane | Mylena Angélica |
+|1.1 |10/05/2025|Adição das imagens e das análises |Larissa Stéfane | Mylena Angélica |
+
