@@ -59,7 +59,15 @@ A entrada é fornecida em blocos:
 
 #### Pensamento
 
-
+1. Utilizar o Princípio da Inclusão-Exclusão para a condição de coprimalidade.
+2. Adotar o Algoritmo de Mo em Árvores para processar as consultas.
+3. Pré-processar a árvore com DFS para obter tempos e profundidades.
+4. Pré-processar valores dos nós para encontrar fatores, produtos e sinais.
+5. Converter consultas de caminho para intervalos no percurso Euleriano e ordená-las por Mo.
+6. Executar a janela deslizante e ajustá-la e atualizá-la a contagem.
+7. Atualizar a contagem de pares coprimos ao adicionar/remover nós da janela.
+8. Incluir e chamar a função Dijkstra para processar o grafo.
+3. Armazenar e imprimir as respostas das consultas na ordem original.
 
 ### 3. Criação de um psudo código
 
