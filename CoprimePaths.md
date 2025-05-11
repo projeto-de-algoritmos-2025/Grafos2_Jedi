@@ -72,7 +72,56 @@ A entrada é fornecida em blocos:
 ### 3. Criação de um psudo código
 
 
+FUNCAO Principal_Resolver(Entradas_Problema):
 
+          Construir_Grafo_Adjacencia(Arestas_Entrada)
+          Chamar_Dijkstra_Nao_Usado(Grafo_Adjacencia) 
+      
+          PARA cada No_Valor em Valores_Entrada:
+              Calcular_Fatores_Primos_E_Produtos_PIE(No_Valor)
+              Armazenar_Resultados_PIE_Para_No
+      
+          Executar_DFS_Completa_Para_Arvore(Grafo_Adjacencia, Raiz=0)
+              // Dentro da DFS: calcular tin, tout, profundidade, tabela_LCA, percurso_Euler
+      
+          PARA cada Query_Entrada (u, v):
+              LCA_uv = Encontrar_LCA(u, v)
+              Converter_Query_Para_Intervalo_Euler_Mais_LCA(u, v, LCA_uv) -> (L, R, LCA_param, indice_original)
+              Adicionar_Query_Formatada_A_Lista
+         
+          Ordenar_Lista_Queries_Formatadas_Por_Mo()
+      
+        
+          Inicializar_Contagem_Pares_Coprimos_Atual = 0
+          Inicializar_Estruturas_De_Contagem_Da_Janela_Mo() 
+      
+          PARA cada Query_Formatada (L_q, R_q, LCA_param_q, indice_original_q) na lista ordenada:
+              // Mover janela [L_atual, R_atual] para [L_q, R_q]
+              ENQUANTO L_atual > L_q: Mover_L_Esquerda_E_Alternar_No_Na_Janela()
+              ENQUANTO R_atual < R_q: Mover_R_Direita_E_Alternar_No_Na_Janela()
+              ENQUANTO L_atual < L_q: Mover_L_Direita_E_Alternar_No_Na_Janela()
+              ENQUANTO R_atual > R_q: Mover_R_Esquerda_E_Alternar_No_Na_Janela()
+      
+         
+              SE LCA_param_q != -1:
+                  Alternar_No_Na_Janela(LCA_param_q) // Adiciona
+      
+      
+              Armazenar_Contagem_Pares_Coprimos_Atual para indice_original_q
+      
+              SE LCA_param_q != -1:
+                  Alternar_No_Na_Janela(LCA_param_q) // Remove (reverte)
+      
+          Imprimir_Resultados_Armazenados()
+
+FIM FUNCAO
+
+// --- Funcoes Auxiliares Chave (Abstratas) ---
+FUNCAO Calcular_Fatores_Primos_E_Produtos_PIE(valor_no)
+FUNCAO Executar_DFS_Completa_Para_Arvore(grafo, no_atual, ...)
+FUNCAO Encontrar_LCA(no1, no2)
+FUNCAO Alternar_No_Na_Janela(no_id) // Atualiza contagem de coprimos e estruturas da janela
+FUNCAO Chamar_Dijkstra_Nao_Usado(grafo)
 
 
 
