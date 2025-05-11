@@ -26,7 +26,7 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 | [Coprime Paths](https://www.hackerrank.com/challenges/coprime-paths/problem) | [Resolução](/CoprimePaths.md) |
 
 ## Screenshots
-Screenshots das resoluções estão indicados na tabela acima.
+Screenshots das resoluções estão presentes no processo de resoluções que estão indicados na tabela acima.
 
 ## Link do vídeo
 
