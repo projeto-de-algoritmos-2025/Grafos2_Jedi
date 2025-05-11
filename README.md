@@ -30,6 +30,9 @@ Screenshots das resoluções estão presentes no processo de resoluções que es
 
 ## Link do vídeo
 
+**Vídeo 1:** Apresentação do trabalho 2
+
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/_AErih42yhc" title="Apresentação do trabalho 2 de Projeto de Algoritmos - Grupo Jedi - Semestre 2025.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Instalação 
 **Linguagem**: python<br>
