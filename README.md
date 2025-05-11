@@ -17,7 +17,7 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 | [Prim's (MST) : Special Subtree](https://www.hackerrank.com/challenges/primsmstsub/problem?isFullScreen=true) | [Resolução](/prim.md)  |
 | [Kruskal (MST): Really Special Subtree](https://www.hackerrank.com/challenges/kruskalmstrsub/problem) | [Resolução](/Kruskal(MST):ReallySpecialSubtree.md) |
 
-### Questões Difíceis
+### Questões Difíceis | Experts
 | Título | Resolução | 
 | -- | -- |
 |[Road Network](https://www.hackerrank.com/challenges/road-network/problem?isFullScreen=true)  | [Resolução](/RoadNetwork.md)  |
